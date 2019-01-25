@@ -1,0 +1,29 @@
+.App {
+  background-color: #ffffff;
+  margin: 0 auto;
+  color: #000000;
+  text-align: center;
+}
+
+.alpha {
+  font-size: 5em;
+  font-family: cursive;
+  color: #ac3f1f;
+
+}
+.experience-label{
+  margin-left: 2%;
+}
+
+@media only screen and (min-width: 700px) {
+.App {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+.alpha {
+  font-family: cursive;
+  color: #ac3f1f;
+}
+}
