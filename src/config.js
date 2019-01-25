@@ -1,9 +1,9 @@
 // Chatkit Auth Tokens
 
-const tokenUrl = "YOUR_TOKEN";
+const tokenUrl = "YOUR_URL";
 
 const instanceLocator = "YOUR_INSTANCE";
 
-const chatKey = "YOUR_KEY";
+// const chatKey = "";
 
-export {tokenUrl, instanceLocator, chatKey}
+export {instanceLocator, tokenUrl}

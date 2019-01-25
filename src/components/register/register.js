@@ -9,8 +9,10 @@ class Register extends React.Component {
       password: '',
       username: '',
       experienceLevel: {},
-      location: ''
+      location: '',
+      disabled: true
     };
+    this.enableSubmitButton = this.enableSubmitButton.bind(this)
   }
 
   onUsernameChange = (event) => {
@@ -34,6 +36,11 @@ class Register extends React.Component {
     this.setState({location: event.target.value.toLowerCase().trim()})
   }
 
+enableSubmitButton = () => {
+  this.setState({
+    disabled: !this.state.disabled
+  })
+}
 
   onSubmitSignIn = () => {
     fetch('https://damp-forest-34333.herokuapp.com/register',{
@@ -119,11 +126,15 @@ class Register extends React.Component {
                     <option value="elite">Elite</option>
                   </select>
                 </div>
-
-              </div>
+                <div className="custom-control custom-checkbox">
+                  <input type="checkbox" className="custom-control-input" id="information-consent" onClick={this.enableSubmitButton} />
+                  <label className="custom-control-label" htmlFor="information-consent">
+                  By checking the box, you agree to allow Alpha to store your provided information, solely as user credentials for this app.
+                  </label>
+                </div>
+                </div>
               <br />
-
-              <button onClick ={this.onSubmitSignIn} className= 'btn btn-lg btn-secondary btn-block'> Submit </button>
+              <button onClick ={this.onSubmitSignIn} className= 'btn btn-lg btn-secondary btn-block' disabled={this.state.disabled}> Submit </button>
 
             </div>
             </div>

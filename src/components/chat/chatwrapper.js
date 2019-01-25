@@ -6,7 +6,7 @@ import RoomList from './roomlist.js'
 import SendMessageForm from './sendmessageform.js'
 import './chatstyle.css'
 
-import {instanceLocator, tokenUrl, chatKey} from '../../config.js'
+import {instanceLocator, tokenUrl} from '../../config.js'
 
 
 class ChatWrapper extends React.Component {

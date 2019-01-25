@@ -49,7 +49,6 @@ onUsernameSubmitted(username) {
         this.setState({
           username: username
         })
-        console.log(username);
       })
       .catch(error => console.error('error', error))
   }
@@ -62,8 +61,6 @@ onUsernameSubmitted(username) {
       this.setState({isSignedIn: true})
     }
     this.setState({route: route});
-    console.log(route);
-    console.log(this.state);
   }
 
 
