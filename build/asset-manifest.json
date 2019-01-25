@@ -1,6 +1,19 @@
 {
-  "main.css": "static/css/main.86436462.css",
-  "main.css.map": "static/css/main.86436462.css.map",
-  "main.js": "static/js/main.7455726b.js",
-  "main.js.map": "static/js/main.7455726b.js.map"
+  "main.css": "/alpha2/static/css/main.e3adad75.chunk.css",
+  "main.js": "/alpha2/static/js/main.6c9f2e3c.chunk.js",
+  "main.js.map": "/alpha2/static/js/main.6c9f2e3c.chunk.js.map",
+  "static/css/1.ae40c699.chunk.css": "/alpha2/static/css/1.ae40c699.chunk.css",
+  "static/js/1.0164364c.chunk.js": "/alpha2/static/js/1.0164364c.chunk.js",
+  "static/js/1.0164364c.chunk.js.map": "/alpha2/static/js/1.0164364c.chunk.js.map",
+  "runtime~main.js": "/alpha2/static/js/runtime~main.dc1e3f82.js",
+  "runtime~main.js.map": "/alpha2/static/js/runtime~main.dc1e3f82.js.map",
+  "static/media/alpha-logo.png": "/alpha2/static/media/alpha-logo.238c687f.png",
+  "static/media/search.png": "/alpha2/static/media/search.3a114c0b.png",
+  "static/media/chat.png": "/alpha2/static/media/chat.504e1674.png",
+  "static/media/alpha-nav.png": "/alpha2/static/media/alpha-nav.e93d0e42.png",
+  "static/css/main.e3adad75.chunk.css.map": "/alpha2/static/css/main.e3adad75.chunk.css.map",
+  "static/css/1.ae40c699.chunk.css.map": "/alpha2/static/css/1.ae40c699.chunk.css.map",
+  "index.html": "/alpha2/index.html",
+  "precache-manifest.42450d42816b4e072559482065bee073.js": "/alpha2/precache-manifest.42450d42816b4e072559482065bee073.js",
+  "service-worker.js": "/alpha2/service-worker.js"
 }
