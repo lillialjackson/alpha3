@@ -1,0 +1,5 @@
+# files to be encrypted
+ckConfig.js filter=git-crypt diff=git-crypt
+
+# Making sure that .gitattributes is never encrypted. DON'T TOUCH THAT LINE AND ONE BELOW
+.gitattributes !filter !diff
