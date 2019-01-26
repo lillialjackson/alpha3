@@ -16,7 +16,6 @@ class MessageList extends React.Component {
     const node = ReactDOM.findDOMNode(this)
     node.scrollTop = node.scrollHeight
     }
-    console.log(this.props.messages);
 
   }
 
