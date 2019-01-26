@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "591decc4b2e830f1e9b2",
+    "revision": "e235301310731504743e",
     "url": "/alpha3/static/css/main.e37642a3.chunk.css"
   },
   {
-    "revision": "591decc4b2e830f1e9b2",
-    "url": "/alpha3/static/js/main.591decc4.chunk.js"
+    "revision": "e235301310731504743e",
+    "url": "/alpha3/static/js/main.e2353013.chunk.js"
   },
   {
     "revision": "09412f3242007d97d1a0",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/alpha3/static/media/chat.504e1674.png"
   },
   {
-    "revision": "b4af9f079ee88055ef3404e75ea8dce5",
+    "revision": "8d402ccb73e994a11907e49d4ec67879",
     "url": "/alpha3/index.html"
   }
 ];
